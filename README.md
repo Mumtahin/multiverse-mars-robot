@@ -1,12 +1,12 @@
 # Multiverse Mars Rover 
 This project is a terminal based app built using Node.js. The interface should has the following features:
+- The world should be modelled as a grid with size m x n 
+- Your program should read the input, update the robots, and print out the final states of the robots 
+- Each robot has a position (x, y), and an orientation (N, E, S, W) 
+- Each robot can move forward one space (F), rotate left by 90 degrees (L), or rotate right by 90 degrees (R) 
+- If a robot moves off the grid, it is marked as ‘lost’ and its last valid grid position and orientation is recorded 
+- Going from x -> x + 1 is in the easterly direction, and y -> y + 1 is in the northerly direction. i.e. (0, 0) represents the south-west corner of the grid 
 
-1. Fetch data from the above URL.
-2. A map to be able to visualise all the boat ramps.
-3. A data visualisation (e.g. a bar chart) of your choice that displays the number or ramps per construction material.
-4. A data visualisation of your choice that displays the number of ramps per size category (values of `area` in 3 different ranges: `[0, 50)`, `[50, 200)`, and `[200, 526)`).
-5. Zooming in the map should filter the visualised data to include only those ramps which are currently visible in the viewport.
-6. Clicking on a data point on a visualisation should filter the ramps on the map to reflect the selected data.
 
 ## Dependencies
 This project has the following package dependencies:
